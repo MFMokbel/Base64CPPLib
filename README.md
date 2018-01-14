@@ -126,3 +126,7 @@ I wrote the library without taking performance into consideration as a major des
 # Requirements
 
 The only requirement is a C++ compiler with support for C++11 and C++14.
+
+# Contributing
+
+Open for pull requests and issues. Comments and suggestions are greatly appreciated.
