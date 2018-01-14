@@ -109,7 +109,7 @@ b64.save_file_text(encoded_file,"encoded_file.txt");
 ```
 # Usage
 
-Simply add the headers “helper_funcs.h” and “base64.h”, and the source files “helper_funcs.cpp” and “base64.cpp” to your project. And then, include the base class header file “base64.h” into your project.
+Simply add the headers “***helper_funcs.h***” and “***base64.h***”, and the source files “***helper_funcs.cpp***” and “***base64.cpp***” to your project. And then, include the base class header file “***base64.h***” into your project.
 
 Other than the examples provided in this readme file, I recommend that you take a look at the code base since it is fairly small and “well” documented to get a better understanding of how it works.
 
