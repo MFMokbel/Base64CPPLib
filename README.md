@@ -94,8 +94,7 @@ b64.decode_str("VjFaV2ExWXlUWGxUYTJoUVVqSlNjbFJYY0hOT1ZteHlXa1pLVVZWVU1Eaz0=", 5
 ```c++
 {
 Base64 b64;
-// hexstream is “hello world”
-// since encode_hex method is not overloaded
+// hexstream is “hello world” in ascii
 b64.encode_hex("68::65::6C::6C::6F::20::77::6F::72::6C::64","::"); // output: “aGVsbG8gd29ybGQ=”
 }
 ```
