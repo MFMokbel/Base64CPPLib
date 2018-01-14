@@ -49,6 +49,20 @@ The library has two classes, **Base64** and **HFuncs**. The base class is **Base
 
 The code throws exceptions of the types *std::exception* and *std::string* that need to be handled with try and catch blocks.
 
+# Types of Violation Checks
+
+The library throws exceptions whenever an attempt is made to violate some of the core prinicples of the algorithm. Such violations include:
+
+* padding character is more than one character
+* padding character is not set
+* padding character is not unique (different from any character in the alphabet (substitution) table)
+* alphabet table size is anything other than 64
+* alphabet table is not set
+* alphabet table contains duplicate characters
+* hexadecimal byte stream that is not a multiple of 2
+* encoded string length is not a mulitple of 4
+* encode character that does not exist in the alphabet table
+
 # Examples
 
 1. To encode a string with a custom padding character and custom alphabet (substitution) table
