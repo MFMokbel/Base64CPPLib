@@ -392,7 +392,7 @@ Base64::decode(const std::string & str) const noexcept(false)
 	return strbit8;
 }
 
-// constructor
+// access method
 // returns currently set padding character value
 // _out_: string
 std::string
